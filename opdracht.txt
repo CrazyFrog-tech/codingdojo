@@ -1,0 +1,17 @@
+In deze opdracht schrijf je een functie die de posities en waarden van de "pieken" (of lokale maxima) van een numerieke array retourneert.
+
+Bijvoorbeeld, de array arr = [0, 1, 2, 5, 1, 0] heeft een piek op positie 3 met een waarde van 5 (omdat arr[3] gelijk is aan 5).
+
+De uitvoer wordt geretourneerd als een Map<String, List> met twee key-value pairs: "pos" en "peaks".
+Als er geen piek in de gegeven array is, retourneer dan eenvoudig {"pos" => [], "peaks" => []}.
+
+Voorbeeld: pickPeaks([3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3]) zou {pos: [3, 7], peaks: [6, 3]} moeten retourneren (of equivalent in andere talen)
+
+Alle invoerarrays zullen geldige gehele getallen bevatten (hoewel het nog steeds leeg kan zijn), dus je hoeft de invoer niet te valideren.
+
+De eerste en laatste elementen van de array worden niet beschouwd als pieken (in de context van een wiskundige functie weten we niet wat er na en voor is en daarom weten we niet of het een piek is of niet).
+
+Let ook op plateaus !!! [1, 2, 2, 2, 1] heeft een piek terwijl [1, 2, 2, 2, 3] en [1, 2, 2, 2, 2] dat niet hebben. In geval van een plateau-piek, retourneer alleen de positie en waarde van het begin van het plateau.
+Bijvoorbeeld: pickPeaks([1, 2, 2, 2, 1]) retourneert {pos: [1], peaks: [2]} (of equivalent in andere talen)
+
+Veel plezier!
