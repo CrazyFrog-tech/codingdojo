@@ -9,8 +9,8 @@ De uitvoer wordt geretourneerd als een Map<String, List> met twee key-value pair
 Als er geen piek in de gegeven array is, retourneer dan eenvoudig
 {"pos" => [], "peaks" => []}.
 
-Voorbeeld: pickPeaks([3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3])
-    zou {pos: [3, 7], peaks: [6, 3]} moeten retourneren (of equivalent in andere talen)
+Voorbeeld: pickPeaks([3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3]) zou {pos: [3, 7],
+peaks: [6, 3]} moeten retourneren (of equivalent in andere talen)
 
 Alle invoerarrays zullen geldige gehele getallen bevatten (hoewel het nog steeds
 leeg kan zijn), dus je hoeft de invoer niet te valideren.
